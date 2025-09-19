@@ -55,21 +55,22 @@ ai-equity-index/
    git clone <repo-url>
    cd ai-equity-index
 
-2.Create a virtual environment:
- python -m venv .venv
-source .venv/bin/activate   # Windows: .\.venv\Scripts\Activate.ps1
+2. Create a virtual environment:
+    python -m venv .venv
+   source .venv/bin/activate   # Windows: .\.venv\Scripts\Activate.ps1
 
 3. Install dependencies:
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
-4.Run the pipeline
-python -m src.features.engineering
-python -m src.index.compute
-python -m src.index.export_powerbi
+4. Run the pipeline
+   python -m src.features.engineering
+   python -m src.index.compute
+   python -m src.index.export_powerbi
 
 5. Run tests
-pytest
+   pytest
 
+---
 Option B — Use Power BI Only
 
 Open powerbi/equity_index_dashboard.pbix.
@@ -80,6 +81,7 @@ Refresh.
 
 Use the Equity Index (0–100) field in KPI cards and charts.
 
+---
 
 📊 Dashboard Features
 
@@ -103,6 +105,8 @@ Top 10 Bar Chart — Leading Local Authorities by Equity Index
 
 See docs/dashboard_guide.md
  for full details.
+ 
+---
 
 🔬 Methodology
 
@@ -116,6 +120,8 @@ Outputs: interpretable 0–100 scores, supported by visual analytics.
 
 See docs/methodology.md
 
+---
+
 📑 Documentation
 
 Data Dictionary
@@ -128,11 +134,15 @@ Bounds Literature
 
 Assumptions Register
 
+---
+
 ✅ Testing & Reproducibility
 
 Includes a pytest suite (tests/) verifying the Equity Index computation.
 
 Ensures transparency and credibility for academic, professional, and visa submission use.
+
+---
 
 📌 Impact Statement
 
