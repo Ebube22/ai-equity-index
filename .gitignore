@@ -1,16 +1,14 @@
-# Byte-compiled / cache
+﻿# Byte-compiled
 __pycache__/
-*.py[cod]
-*.ipynb_checkpoints
+*.pyc
+.ipynb_checkpoints/
 
 # Envs
 .venv/
 .env
-venv/
 
-# Data caches
-data/raw/**
-data/interim/**
-
-# Power BI cache
-**/*.pbix.temp/**
+# Data caches (keep only refined CSV)
+data/raw/
+data/interim/
+# Power BI temp
+*.pbix.temp/
