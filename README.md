@@ -85,23 +85,14 @@ Use the Equity Index (0–100) field in KPI cards and charts.
 
 📊 Dashboard Features
 
-KPI Cards
+## 📸 Dashboard Preview
 
-Avg. Gender Equity Score
+### KPI Summary
+![KPI Cards](docs/images/dashboard_kpi.png)
 
-Avg. Fairness Score
+### Charts
+![Charts View](docs/images/dashboard_charts.png)
 
-Avg. Inspection Quality Score
-
-Equity Index (0–100)
-
-Line Chart — Fairness vs Inspection Quality by Local Authority
-
-Histogram — Distribution of Equity Index values (0–100)
-
-Scatter Plot — Fairness vs Inspection Quality (relationship analysis)
-
-Top 10 Bar Chart — Leading Local Authorities by Equity Index
 
 See docs/dashboard_guide.md
  for full details.
